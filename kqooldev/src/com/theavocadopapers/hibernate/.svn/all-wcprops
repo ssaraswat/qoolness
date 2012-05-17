@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate
+END
+SessionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/SessionWrapper.java
+END
+HibernateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/HibernateUtil.java
+END
+HibernateAppListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/HibernateAppListener.java
+END
+MySQL5DialectBugHack.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/MySQL5DialectBugHack.java
+END

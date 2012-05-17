@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.Address" table="address">
+    	<cache usage="read-write" />
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			
+			<property name="addressLine1" column="address_line_1" />
+			<property name="addressLine2" column="address_line_2" />
+			<property name="city" column="city" />
+			<property name="stateProvinceCode" column="state_province_code" />
+			<property name="region" column="region" />
+			<property name="countryCode" column="country_code" />
+			<property name="postalCode" column="postal_code" />
+			<property name="homeTelephone" column="home_telephone" />
+			<property name="workTelephone" column="work_telephone" />
+			<property name="mobileTelephone" column="mobile_telephone" />
+			<property name="userId" column="user_id" />
+			
+
+
+    </class>
+</hibernate-mapping>

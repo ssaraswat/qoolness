@@ -1,0 +1,90 @@
+# note: these are not environment-specific; we don't need one for each.  We may at some point want to have multiple files, one for each site.
+
+# optionsitem.*.answervalues and optionsitem.*.answerlabels must be parallel tilde-delimited lists with no leading or trailing whitespace on elements
+
+# NOTE!!! - Changing answervalues or question codes (the first * in optionsitem.*.*) must be done with extreme caution since data will be stored in the db based on these codes.  Answerlabels may be changed with less impact.
+
+question.birthDate=What is your date of birth?
+question.height=What is your height?
+question.weight=What is your weight (in pounds)?
+question.targetWeight=What is your <i>target</i> weight (in pounds)?
+
+question.activityLevel=What is your level of physical activity?
+optionsitem.activityLevel.answervalues=notActive~moderatelyActive~average~veryActive~extremelyActive
+optionsitem.activityLevel.answerlabels=Not very active at all~Moderately active~About average~Very active~Extremely active
+
+question.currentlyExercise=Do you currently exercise?
+optionsitem.currentlyExercise.answervalues=no~lessThanOnceWeek~onceWeek~twiceWeek~threeFourTimesWeek~fiveSixTimesWeek~sevenOrMoreWeek
+optionsitem.currentlyExercise.answerlabels=No~Yes, less than once a week~Yes, once a week~Yes, twice a week~Yes, three or four times a week~Yes, five or six times a week~Yes, seven or more times a week
+
+question.howLongExercise=If "yes," for how much per day?
+optionsitem.howLongExercise.answervalues=-~15Min~30Min~45Min~60Min~90Min~120Min~150Min~180Min~gt180min
+optionsitem.howLongExercise.answerlabels=N/A~Fifteen minutes~Half an hour~Forty-five minutes~An hour~An hour and a half~Two hours~Two and a half hours~Three hours~More than three hours
+
+question.exercisedInPast=If "no," have you exercised in the past?
+question.previousTrainingProgram=Have you previously trained in any training program?
+question.previousPersonalTrainingProgram=Have you ever participated in a personal training program?
+
+question.currentWorkout=If you currently exercise, what exercises does your workout include?
+question.goals=What are your short and long term goals for exercise, health and fitness?
+question.comments=Do you have any other comments regarding your level of fitness or your fitness needs?
+
+question.heartAttackOrDisease=Heart attack/heart disease?
+question.coronaryBypass=Coronary bypass?
+question.otherCardiacSurgery=Other cardiac surgery?
+question.pacemaker=Pacemaker?
+question.embolism=Embolism?
+question.stroke=Stroke?
+question.aneurysm=Aneurysm?
+question.anginaPectoris=Angina pectoris?
+question.peripheralVascularDisease=Peripheral vascular disease?
+question.thyroidProblems=Thyroid problems?
+question.phlebitis=Phlebitis?
+question.chronicBronchitis=Chronic bronchitis?
+question.emphysema=Emphysema?
+question.diabetes=Diabetes?
+question.asthma=Asthma?
+question.chestPain=Chest pain?
+question.lightheadednessFainting=Lightheadedness or fainting?
+question.palpitations=Palpitations?
+question.heartMurmur=Heart murmur?
+question.breathlessnessWakesYouUp=Breathlessness that wakes you up?
+question.ankleSwelling=Ankle swelling?
+question.shortnessOfBreath=Shortness of breath?
+question.dizziness=Dizziness?
+question.highBP=Do you have high blood pressure (>160/90)?
+question.highCholesterol=Do you have high cholesterol (>240)?
+question.smokedCigarettes=Have you smoked cigarettes?
+question.atheroscleroticDiseaseHistory=Do you have a family history of coronary or other atherosclerotic diseases in parents or siblings prior to age 55?
+question.pregnant=Are you pregnant?
+
+
+question.takingMedications=Are you currently taking any medications? If so please specify.
+question.specialDiet=Are you currently on a special diet? If yes, please explain.
+question.specialPhysicalConditions=Do you have any physical condition, impairment or disability that might affect your ability to under take an exercise program?
+
+question.whyOnlineTraining=What prompted you to pursue online training?
+optionsitem.whyOnlineTraining.answerlabels=I want to look and feel better~Gym prices are expensive~I like to train on my own~I decided to try it to motivate myself~I am responding to a promotion or ad~A friend suggested it
+optionsitem.whyOnlineTraining.answervalues=lookGoodFeelBetter~cost~trainBySelf~motivation~respondingToAd~friendSuggested
+
+question.whatMotivatesAboutPersonalTraining=What do you value most about personal training?
+optionsitem.whatMotivatesAboutPersonalTraining.answerlabels=The discipline~The education~The motivation~The results~The time I save by working out more efficiently~I am new to training
+optionsitem.whatMotivatesAboutPersonalTraining.answervalues=discipline~education~motivation~results~timeSaved~newToTraining
+
+question.whatsImprovedMost=What aspect of your health and well-being has improved the most from personal training?
+optionsitem.whatsImprovedMost.answerlabels=My appearance~My flexibility~My stamina and aerobic fitness~My strength and lean body mass~I am new to training
+optionsitem.whatsImprovedMost.answervalues=appearance~flexibility~staminaAndAerobic~strengthAndLean~newToTraining
+
+
+# groups of radio buttons:
+itemsgroup.pastExercise=exercisedInPast~previousTrainingProgram~previousPersonalTrainingProgram
+itemsgroup.medConditions1=heartAttackOrDisease~coronaryBypass~otherCardiacSurgery~pacemaker~embolism~stroke~aneurysm~anginaPectoris
+itemsgroup.medConditions2=peripheralVascularDisease~thyroidProblems~phlebitis~chronicBronchitis~emphysema~diabetes~asthma
+itemsgroup.medConditions3=chestPain~lightheadednessFainting~palpitations~heartMurmur~breathlessnessWakesYouUp~ankleSwelling~shortnessOfBreath~dizziness
+itemsgroup.medConditions4=highBP~highCholesterol~smokedCigarettes~atheroscleroticDiseaseHistory~pregnant
+
+
+
+
+
+

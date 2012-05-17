@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.Workout" table="workout">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="name" column="name" />
+			<property name="comments" column="comments" />
+			<property name="userId" column="user_id" />
+			<property name="prescriptive" column="prescriptive" type="boolean" />
+			<property name="status" column="status" />
+			<property name="administratorAssigned" column="administrator_assigned" type="boolean" />
+			<property name="weightLbs" column="weight_lbs" type="double" />
+			<property name="performedDate" column="performed_date" />
+			<property name="assigningBackendUserId" column="assigning_backend_user_id" />
+			<property name="sourceWorkoutId" column="source_workout_id" />
+			<property name="dueDate" column="due_date" />
+			<property name="recordedAsWorkoutDate" column="recorded_as_workout_date" />
+			
+
+
+
+	
+	
+    </class>
+</hibernate-mapping>

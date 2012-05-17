@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/acp
+END
+PoolCleanerTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/acp/PoolCleanerTask.java
+END
+ConnectionPoolUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/acp/ConnectionPoolUtil.java
+END
+ConnectionPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/acp/ConnectionPool.java
+END
+ConnectionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/acp/ConnectionWrapper.java
+END
+ConnectionPoolException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/hibernate/acp/ConnectionPoolException.java
+END

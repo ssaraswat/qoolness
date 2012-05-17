@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+		
+		<!-- Custom DB pool since nothing else works (c3p0, proxool, Tomcat JNDI (in stage), built-in not prod-ready, etc.) -->
+       	<property name="connection.provider_class">com.theavocadopapers.hibernate.connectionprovider.AvocadoConnectionProvider</property>
+       	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+       	<property name="connection.url">jdbc:mysql://localhost/kqooldev</property>
+       	<property name="connection.username">kwadhare</property>
+       	<property name="connection.password">kqool</property>
+       	
+       	
+       	<property name="connection.pool_size">5</property>
+ 
+        <!-- -1 for unlimited, 0 for none, n for n-number of unpooled connections to be checked out by the pool at one time -->
+       	<property name="connection.nonpooled_connections_limit">2</property>
+       	      	
+       	<!-- 5 mins -->
+       	<property name="connection.expire_after_millis_idle">300000</property>
+       	
+
+
+       	
+
+        <!-- SQL dialect -->
+        <property name="dialect">com.theavocadopapers.hibernate.MySQL5DialectBugHack</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+
+		<!-- Allow query caching: -->
+        <property name="cache.use_query_cache">true</property>
+        
+        <!-- No autocommit -->
+        <property name="hibernate.connection.autocommit">false</property>
+ 
+        <!-- Second-level cache provider: -->
+        <property name="cache.provider_class">org.hibernate.cache.OSCacheProvider</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">validate</property>
+
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/Address.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/Article.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/CalorieDay.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/CalorieExpendingActivity.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/CalorieHour.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/CalorieWeek.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/Exercise.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/ExerciseDetail.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/ExerciseVideo.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/IntToIntMapping.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/NutritionPlan.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/PreRegistrationUserData.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/User.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/Workout.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/Site.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/Photo.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/PfdItem.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/PfdComment.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/ClientToBackendUserMapping.hbm.xml"/>
+        <mapping resource="com/theavocadopapers/apps/kqool/entity/staticdata/StaticDataObject.hbm.xml"/>
+
+    </session-factory>
+
+</hibernate-configuration>
+
+
+
+
+

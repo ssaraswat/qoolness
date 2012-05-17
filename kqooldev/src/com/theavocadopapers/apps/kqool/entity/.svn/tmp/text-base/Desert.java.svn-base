@@ -1,0 +1,66 @@
+package com.theavocadopapers.apps.kqool.entity;
+
+import java.util.List;
+
+import com.theavocadopapers.core.logging.Logger;
+
+public class Desert extends AbstractDbObject{
+
+	private static final Class currentClass=Desert.class;
+	
+	private static final Logger logger = Logger.getLogger(currentClass);
+	
+	int desertId;
+	String data;
+	int adminUserId;
+	
+	
+	@Override
+	protected Comparable getComparableValue() {
+		return new Integer(getId());
+	}
+
+
+	public int getDesertId() {
+		return desertId;
+	}
+
+
+	public void setDesertId(int desertId) {
+		this.desertId = desertId;
+	}
+
+
+	public String getData() {
+		return data;
+	}
+
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+
+	public int getAdminUserId() {
+		return adminUserId;
+	}
+
+
+	public void setAdminUserId(int adminUserId) {
+		this.adminUserId = adminUserId;
+	}
+	
+	public static Desert getById(final int id) {
+		return (Desert)getById(currentClass, id, false);
+	}
+	
+	public static List getAll() {
+		return getAll(currentClass);
+	}
+	
+	public static Desert getByUserId(final int userId) {
+		return (Desert)getUniqueByField("userId", ""+userId, FIELD_TYPE_NUMERIC, currentClass, false);
+	}
+	
+
+}

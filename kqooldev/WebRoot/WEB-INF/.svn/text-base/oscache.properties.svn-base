@@ -1,0 +1,6 @@
+# Note: see oscache.properties.sample in this dir for docs and sample entries for all possible props.
+cache.use.host.domain.in.key=true
+cache.algorithm=com.opensymphony.oscache.base.algorithm.LRUCache
+cache.capacity=99999
+
+

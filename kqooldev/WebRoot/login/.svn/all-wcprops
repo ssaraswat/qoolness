@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/login.jsp
+END
+join.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/join.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/logout.jsp
+END
+processPfp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/processPfp.jsp
+END
+newUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/newUser.jsp
+END
+viewPersonalFitnessData.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/viewPersonalFitnessData.jsp
+END
+pfd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/pfd.jsp
+END
+paypalSubscriptionRedirector.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/paypalSubscriptionRedirector.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/index.jsp
+END
+answerSecretQuestion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/answerSecretQuestion.jsp
+END
+joinConfirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/joinConfirm.jsp
+END
+loginConfirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/loginConfirm.jsp
+END
+quonvincing.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/quonvincing.jsp
+END
+processJoin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/processJoin.jsp
+END
+pfp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/pfp.jsp
+END
+processLogin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/processLogin.jsp
+END
+processNewUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/processNewUser.jsp
+END
+displayPassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/displayPassword.jsp
+END
+forgotPassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/forgotPassword.jsp
+END
+loginSecretQuestion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/loginSecretQuestion.jsp
+END
+processPPReturn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/processPPReturn.jsp
+END
+processSecretQuestion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/processSecretQuestion.jsp
+END
+pfpConfirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/login/pfpConfirm.jsp
+END

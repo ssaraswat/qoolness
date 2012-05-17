@@ -1,0 +1,99 @@
+package com.theavocadopapers.apps.kqool.entity;
+
+import java.sql.Date;
+import java.util.List;
+
+import com.theavocadopapers.core.logging.Logger;
+
+public class ClientToCalories extends AbstractDbObject{
+
+	
+	private static final Class currentClass=ClientToCalories.class;
+	
+	private static final Logger logger = Logger.getLogger(currentClass);
+	
+	protected int clientId;
+	protected String calories;
+	protected String carbs;
+	protected String fibre;
+	protected String instructions;
+	protected String comments;
+	protected Date date;
+	
+	
+	public static ClientToCalories getById(final int id) {
+		return (ClientToCalories)getById(currentClass, id, false);
+	}
+	
+	@Override
+	protected Comparable getComparableValue() {
+		return new Integer(getId());
+	}
+
+	public int getClientId() {
+		return clientId;
+	}
+
+	public void setClientId(int clientId) {
+		this.clientId = clientId;
+	}
+
+	public String getInstructions() {
+		return instructions;
+	}
+
+	public void setInstructions(String instructions) {
+		this.instructions = instructions;
+	}
+
+	public String getComments() {
+		return comments;
+	}
+
+	public void setComments(String comments) {
+		this.comments = comments;
+	}
+
+	
+	public String getCalories() {
+		return calories;
+	}
+
+	public void setCalories(String calories) {
+		this.calories = calories;
+	}
+
+	public String getCarbs() {
+		return carbs;
+	}
+
+	public void setCarbs(String carbs) {
+		this.carbs = carbs;
+	}
+
+	public String getFibre() {
+		return fibre;
+	}
+
+	public void setFibre(String fibre) {
+		this.fibre = fibre;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public static ClientToCalories getByUserId(final int userId) {
+		return (ClientToCalories)getUniqueByField("userId", ""+userId, FIELD_TYPE_NUMERIC, currentClass, false);
+	}
+
+
+	public static List getAll() {
+		return getAll(currentClass);
+	}
+	
+}

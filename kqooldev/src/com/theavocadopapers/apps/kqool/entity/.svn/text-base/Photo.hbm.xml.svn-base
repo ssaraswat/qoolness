@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.Photo" table="photo">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+		
+			<property name="filenameExtension" column="filename_extension" />
+			<property name="uploadDate" column="upload_date" />
+			<property name="primaryPhoto" column="primary_photo" type="boolean"  />
+			<property name="userId" column="user_id" />
+			<property name="mainHeight" column="main_height" />
+			<property name="mainWidth" column="main_width" />
+			<property name="thumbHeight" column="thumb_height" />
+			<property name="thumbWidth" column="thumb_width" />
+			<property name="filenamePrefix" column="filename_prefix" />
+			<property name="caption" column="caption" />
+			<property name="uploadingUserId" column="uploading_user_id" />
+			
+			
+			
+			
+
+
+
+    </class>
+</hibernate-mapping>

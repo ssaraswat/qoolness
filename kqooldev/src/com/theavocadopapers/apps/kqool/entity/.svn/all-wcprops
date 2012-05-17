@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity
+END
+Photo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Photo.hbm.xml
+END
+Exercise.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Exercise.class
+END
+ExerciseDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ExerciseDetail.java
+END
+AbstractDbObject.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/AbstractDbObject.class
+END
+PfdItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PfdItem.class
+END
+AbstractEntity.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/AbstractEntity.class
+END
+VideoToExerciseMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/VideoToExerciseMapping.java
+END
+IntToIntMapping.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/IntToIntMapping.hbm.xml
+END
+Photo.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Photo.class
+END
+TempTester.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/TempTester.class
+END
+UserToWorkoutMapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/UserToWorkoutMapping.class
+END
+ClientToBackendUserMapping.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ClientToBackendUserMapping.hbm.xml
+END
+ExerciseVideo.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ExerciseVideo.class
+END
+PfdItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PfdItem.java
+END
+NutritionPlan.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/NutritionPlan.java
+END
+PfdItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PfdItem.hbm.xml
+END
+Site.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Site.class
+END
+ExerciseDetail.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ExerciseDetail.class
+END
+CalorieExpendingActivity.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieExpendingActivity.hbm.xml
+END
+User.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/User.class
+END
+CalorieDay.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieDay.class
+END
+Article.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Article.java
+END
+CalorieHour.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieHour.class
+END
+PfdComment.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PfdComment.class
+END
+ClientToBackendUserMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ClientToBackendUserMapping.java
+END
+UserHealthData.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/UserHealthData.class
+END
+CalorieDay.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieDay.java
+END
+Address.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Address.hbm.xml
+END
+Article.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Article.hbm.xml
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/User.java
+END
+IntToIntMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/IntToIntMapping.java
+END
+Workout.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Workout.class
+END
+Site.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Site.java
+END
+VideoToExerciseMapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/VideoToExerciseMapping.class
+END
+CalorieExpendingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieExpendingActivity.java
+END
+CalorieWeek.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieWeek.class
+END
+ArticleToExerciseMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ArticleToExerciseMapping.java
+END
+ExerciseVideo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ExerciseVideo.java
+END
+CalorieExpendingActivity.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieExpendingActivity.class
+END
+ExerciseVideo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ExerciseVideo.hbm.xml
+END
+Site.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Site.hbm.xml
+END
+ExerciseDetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ExerciseDetail.hbm.xml
+END
+Exercise.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Exercise.java
+END
+Nutrition.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Nutrition.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/User.hbm.xml
+END
+UserToWorkoutMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/UserToWorkoutMapping.java
+END
+PreRegistrationUserData.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PreRegistrationUserData.class
+END
+CalorieDay.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieDay.hbm.xml
+END
+TempTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/TempTester.java
+END
+Address.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Address.class
+END
+CalorieHour.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieHour.hbm.xml
+END
+PfdComment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PfdComment.hbm.xml
+END
+PreRegistrationUserData.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PreRegistrationUserData.java
+END
+Article.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Article.class
+END
+Exercise.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Exercise.hbm.xml
+END
+Nutrition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Nutrition.hbm.xml
+END
+Workout.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Workout.hbm.xml
+END
+CalorieWeek.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieWeek.hbm.xml
+END
+ArticleToExerciseMapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ArticleToExerciseMapping.class
+END
+CalorieWeek.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieWeek.java
+END
+AbstractDbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/AbstractDbObject.java
+END
+IntToIntMapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/IntToIntMapping.class
+END
+Workout.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Workout.java
+END
+CalorieHour$NutrientDecimalFormat.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieHour$NutrientDecimalFormat.class
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Address.java
+END
+Photo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/Photo.java
+END
+CalorieHour.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/CalorieHour.java
+END
+ClientToBackendUserMapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/ClientToBackendUserMapping.class
+END
+PfdComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PfdComment.java
+END
+PreRegistrationUserData.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/PreRegistrationUserData.hbm.xml
+END
+UserHealthData.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/entity/UserHealthData.java
+END

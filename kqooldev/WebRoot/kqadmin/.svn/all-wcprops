@@ -1,0 +1,551 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/SiyaCorp/kqool/svn/!svn/ver/22/kqooldev/WebRoot/kqadmin
+END
+showWorkoutInclude.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/showWorkoutInclude.jsp
+END
+backendUserAssignment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/backendUserAssignment.jsp
+END
+x_processFormatVideoNames.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_processFormatVideoNames.jsp
+END
+processWorkout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/18/kqooldev/WebRoot/kqadmin/processWorkout.jsp
+END
+x_article.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_article.jsp
+END
+x_exerciseListWithVideosTabDel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_exerciseListWithVideosTabDel.jsp
+END
+processCalorieExpendingActivity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processCalorieExpendingActivity.jsp
+END
+calculateProjectedCaloriesExpended.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/calculateProjectedCaloriesExpended.jsp
+END
+processChangeActiveStatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processChangeActiveStatus.jsp
+END
+showUserChanges.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/showUserChanges.jsp
+END
+processAssign.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processAssign.jsp
+END
+processPfpRequest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processPfpRequest.jsp
+END
+calorieExpendingActivities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/calorieExpendingActivities.jsp
+END
+addCalorieExpendingActivities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/addCalorieExpendingActivities.jsp
+END
+site.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/site.jsp
+END
+deletePhoto.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/deletePhoto.jsp
+END
+editPhoto.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/editPhoto.jsp
+END
+ignoreDeadline.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/ignoreDeadline.jsp
+END
+user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SiyaCorp/kqool/svn/!svn/ver/21/kqooldev/WebRoot/kqadmin/user.jsp
+END
+x_formatVideoNames.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_formatVideoNames.jsp
+END
+x_index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_index.jsp
+END
+x_checkCategoriesAndNames.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_checkCategoriesAndNames.jsp
+END
+editCalorieExpendingActivity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/editCalorieExpendingActivity.jsp
+END
+x_integrityChecks.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_integrityChecks.jsp
+END
+x_processFormatExerciseNames.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_processFormatExerciseNames.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/index.jsp
+END
+x_formatExerciseNames.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_formatExerciseNames.jsp
+END
+temp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/temp.jsp
+END
+backendUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/backendUsers.jsp
+END
+processSite.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processSite.jsp
+END
+processUnassign.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processUnassign.jsp
+END
+pfdEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/pfdEdit.jsp
+END
+processUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processUsers.jsp
+END
+exercisesTableHeaderRow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/exercisesTableHeaderRow.jsp
+END
+workoutList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/workoutList.jsp
+END
+menu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/menu.jsp
+END
+showWorkout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/showWorkout.jsp
+END
+userWorkouts.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/userWorkouts.jsp
+END
+clientWorkouts.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/clientWorkouts.jsp
+END
+processPhotoUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processPhotoUpload.jsp
+END
+x_processManageVideos.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_processManageVideos.jsp
+END
+addUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/addUsers.jsp
+END
+processNutrition.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/22/kqooldev/WebRoot/kqadmin/processNutrition.jsp
+END
+x_manageArticles.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_manageArticles.jsp
+END
+processUserStatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processUserStatus.jsp
+END
+assignResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/assignResult.jsp
+END
+processExercises.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processExercises.jsp
+END
+processVideoUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processVideoUpload.jsp
+END
+workoutExerciseDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/workoutExerciseDetails.jsp
+END
+processNewComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processNewComment.jsp
+END
+viewCalorieSpreadsheets.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/viewCalorieSpreadsheets.jsp
+END
+deleteCalorieExpendingActivity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/deleteCalorieExpendingActivity.jsp
+END
+editUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/editUser.jsp
+END
+editComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/editComment.jsp
+END
+pfpRequest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/pfpRequest.jsp
+END
+processAddUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processAddUsers.jsp
+END
+siteConfirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/siteConfirm.jsp
+END
+addExercises.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/addExercises.jsp
+END
+x_checkCategories.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_checkCategories.jsp
+END
+backendUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/backendUser.jsp
+END
+editExercise.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/editExercise.jsp
+END
+x_manageVideos.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_manageVideos.jsp
+END
+processEditUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processEditUser.jsp
+END
+confirmActivityAction.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/confirmActivityAction.jsp
+END
+user_jmeterTest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/user_jmeterTest.jsp
+END
+processEditComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processEditComment.jsp
+END
+userExists.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/userExists.jsp
+END
+usersTableHeaderRow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/usersTableHeaderRow.jsp
+END
+users.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/users.jsp
+END
+processThumbUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processThumbUpload.jsp
+END
+deactivateWorkout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/deactivateWorkout.jsp
+END
+processAddExercises.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processAddExercises.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/logout.jsp
+END
+pfpRequestConfirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/pfpRequestConfirm.jsp
+END
+sites.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/sites.jsp
+END
+pfpRequestDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/pfpRequestDetails.jsp
+END
+showExerciseChanges.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/showExerciseChanges.jsp
+END
+confirmExerciseAction.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/confirmExerciseAction.jsp
+END
+deleteVideo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/deleteVideo.jsp
+END
+addBackendUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/addBackendUsers.jsp
+END
+processAddCalorieExpendingActivities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processAddCalorieExpendingActivities.jsp
+END
+processEditPhoto.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processEditPhoto.jsp
+END
+editExerciseVideo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/editExerciseVideo.jsp
+END
+clientRoutines.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/clientRoutines.jsp
+END
+exercises.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/9/kqooldev/WebRoot/kqadmin/exercises.jsp
+END
+x_exerciseListWithVideos.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/x_exerciseListWithVideos.jsp
+END
+userStatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/userStatus.jsp
+END
+workout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SiyaCorp/kqool/svn/!svn/ver/20/kqooldev/WebRoot/kqadmin/workout.jsp
+END
+changeActiveStatusResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/changeActiveStatusResult.jsp
+END
+processAddBackendUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/processAddBackendUsers.jsp
+END
+viewUserWorkouts.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/kqadmin/viewUserWorkouts.jsp
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF
+END
+logger.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/logger.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/hibernate.cfg.xml
+END
+oscache.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/oscache.properties
+END
+pfd.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/pfd.properties
+END
+site5.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/site5.properties
+END
+site4.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/site4.properties
+END
+site3.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/site3.properties
+END
+site1.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/site1.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/log4j.properties
+END
+ck.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/ck.properties
+END
+generic.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/8/kqooldev/WebRoot/WEB-INF/generic.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/WebRoot/WEB-INF/web.xml
+END

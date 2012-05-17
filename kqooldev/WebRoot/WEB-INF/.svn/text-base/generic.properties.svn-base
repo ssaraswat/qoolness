@@ -1,0 +1,14 @@
+comments.email.address=kqool@kqool.com
+exception.email.address=scs@theavocadopapers.com
+user.photo.filesys.root=/home/z0067456/tomcat/webapps/ROOT/images/userphotos
+# relative from context root (with leading slash):
+user.photo.http.path=/images/userphotos
+javascript.document.domain=kqool.com
+
+video.filesys.root=/home/z0067456/tomcat/webapps/ROOT/video/exercises
+video.thumb.filesys.root=/home/z0067456/tomcat/webapps/ROOT/images/videograbs
+generic.video.thumb.image=/home/z0067456/tomcat/webapps/ROOT/images/generic_video_thumb.jpg
+
+use.new.pfp.form=true
+
+p3p.policy.ref.fq.url=http://www.kqool.com/w3c/p3p.xml

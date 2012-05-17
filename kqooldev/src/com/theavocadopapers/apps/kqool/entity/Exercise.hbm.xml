@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.Exercise" table="exercise">
+        <cache usage="read-write" />
+        
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="name" column="name" />
+			<property name="quantityMeasure" column="quantity_measure" />
+			<property name="intensityMeasure" column="intensity_measure" />
+			<property name="description" column="description" type="text" />
+			<property name="status" column="status" />
+			<property name="category" column="category" />
+			<property name="exerciseVideoId" column="exercise_video_id" />
+			<property name="calorieFactor" column="calorie_factor" />
+			<property name="calorieCalculationMethod" column="calorie_calculation_method" />
+			<property name="maxLevel" column="max_level" />
+			<property name="siteId" column="site_id" />
+			
+			
+			
+			
+
+    </class>
+</hibernate-mapping>

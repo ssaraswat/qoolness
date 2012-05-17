@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.CalorieWeek" table="calorie_week">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="startDateYear" column="start_date_year" />
+			<property name="startDateMonth" column="start_date_month" />
+			<property name="startDateDate" column="start_date_date" />
+			<property name="comments" column="comments" />
+			<property name="userId" column="user_id" />
+			<property name="endWeight" column="end_weight" />
+			<property name="endWaist" column="end_waist" />
+			<property name="endChest" column="end_chest" />
+			<property name="endThigh" column="end_thigh" />
+			<property name="endHip" column="end_hip" />
+			<property name="totalCalIntake" column="total_cal_intake" />
+			<property name="totalCalExpended" column="total_cal_expended" />
+			<property name="totalFatIntake" column="total_fat_intake" />
+			<property name="totalCarbIntake" column="total_carb_intake" />
+			<property name="totalProteinIntake" column="total_protein_intake" />
+			<property name="totalFiberIntake" column="total_fiber_intake" />
+			<property name="totalSugarIntake" column="total_sugar_intake" />
+			<property name="totalSodiumIntake" column="total_sodium_intake" />
+			<property name="totalCalciumIntake" column="total_calcium_intake" />
+			<property name="totalSatfatIntake" column="total_satfat_intake" />
+			<property name="totalCholesterolIntake" column="total_cholesterol_intake" />
+
+
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.NutritionPlan" table="nutrition">
+        <cache usage="read-write" />
+        
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+
+			<property name="userId" column="user_id" />
+			<property name="sundayRec" column="sunday_rec" />
+			<property name="mondayRec" column="monday_rec" />
+			<property name="tuesdayRec" column="tuesday_rec" />
+			<property name="wednesdayRec" column="wednesday_rec" />
+			<property name="thursdayRec" column="thursday_rec" />
+			<property name="fridayRec" column="friday_rec" />
+			<property name="saturdayRec" column="saturday_rec" />
+			<property name="instructions" column="instructions" />
+
+    </class>
+</hibernate-mapping>

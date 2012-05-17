@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.ExerciseVideo" table="exercise_video">
+        <cache usage="read-write" />
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="name" column="name" />
+			<property name="exerciseCategory" column="ex_category" />
+			<property name="description" column="description" />
+			<property name="altIconImage" column="alt_icon_image" />
+			<property name="filename" column="filename" />
+	
+	    </class>
+</hibernate-mapping>

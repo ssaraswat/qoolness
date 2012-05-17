@@ -1,0 +1,58 @@
+package com.theavocadopapers.apps.kqool.entity;
+
+import java.util.List;
+
+import com.theavocadopapers.core.logging.Logger;
+
+public class Snack extends AbstractDbObject{
+
+	private static final Class currentClass=Snack.class;
+	
+	private static final Logger logger = Logger.getLogger(currentClass);
+	
+	int snackId;
+	String data;
+	int adminUserId;
+	
+	@Override
+	protected Comparable getComparableValue() {
+		return new Integer(getId());
+	}
+
+	public int getSnackId() {
+		return snackId;
+	}
+
+	public void setSnackId(int snackId) {
+		this.snackId = snackId;
+	}
+
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public int getAdminUserId() {
+		return adminUserId;
+	}
+
+	public void setAdminUserId(int adminUserId) {
+		this.adminUserId = adminUserId;
+	}
+	
+	public static Snack getById(final int id) {
+		return (Snack)getById(currentClass, id, false);
+	}
+	
+	public static List getAll() {
+		return getAll(currentClass);
+	}
+	
+	public static Snack getByUserId(final int userId) {
+		return (Snack)getUniqueByField("userId", ""+userId, FIELD_TYPE_NUMERIC, currentClass, false);
+	}
+
+}

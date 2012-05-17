@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail
+END
+SimpleMailMessageBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/SimpleMailMessageBody.java
+END
+MailerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/MailerThread.java
+END
+SMTPAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/SMTPAuthenticator.java
+END
+SMTPAuthenticator.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/SMTPAuthenticator.class
+END
+MailerThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/MailerThread.class
+END
+SimpleMailMessageBody.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/SimpleMailMessageBody.class
+END
+MailMessageBody.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/MailMessageBody.class
+END
+Mailer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/Mailer.java
+END
+MailMessageBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/MailMessageBody.java
+END
+Mailer.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/core/mail/Mailer.class
+END

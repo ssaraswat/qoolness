@@ -1,0 +1,416 @@
+package com.theavocadopapers.hibernate.acp;
+
+import java.sql.Array;
+import java.sql.Blob;
+import java.sql.CallableStatement;
+import java.sql.Clob;
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.NClob;
+import java.sql.PreparedStatement;
+import java.sql.SQLClientInfoException;
+import java.sql.SQLException;
+import java.sql.SQLWarning;
+import java.sql.SQLXML;
+import java.sql.Savepoint;
+import java.sql.Statement;
+import java.sql.Struct;
+import java.util.Date;
+import java.util.Map;
+import java.util.Properties;
+
+import com.theavocadopapers.core.logging.Logger;
+
+public class ConnectionWrapper implements Connection {
+	
+	private static final Logger logger = Logger.getLogger(ConnectionWrapper.class);
+
+	
+	private static int nextId=0;
+	
+	private final Connection backingConnection;
+
+	private int id;
+	private long createTime;
+	private boolean available;
+	private long lastUsedTime;
+	private boolean pooled;
+	
+	
+	private synchronized int getNextId() {
+		nextId++;
+		if (nextId==Integer.MAX_VALUE-1) {
+			nextId=0;
+		}
+		return nextId;
+	}
+	
+	public ConnectionWrapper(final Connection backingConnection) {
+		this(backingConnection, true);
+	}
+	
+	/**
+	 * @param backingConnection
+	 * @param pooled If false, this connection is not pooled; it is returned by getConnection(), but when it's returned to closeConnection(), it's discarded.
+	 */
+	public ConnectionWrapper(final Connection backingConnection, final boolean pooled) {
+		super();
+		final long now=new Date().getTime();
+		this.backingConnection=backingConnection;
+		this.id=getNextId();
+		this.createTime=now;
+		this.lastUsedTime=now;
+		this.available=true;
+		this.pooled=pooled;
+	}
+	
+	protected long getIdleMillis() {
+		return new Date().getTime()-lastUsedTime;
+	}
+	
+
+
+	public void close() throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		this.backingConnection.close();
+	}
+	
+	
+	public boolean isClosed() throws SQLException {
+		return backingConnection.isClosed();
+	}	
+	
+	public void clearWarnings() throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		this.backingConnection.clearWarnings();
+	}
+
+
+	public void commit() throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		this.backingConnection.commit();
+
+	}
+
+	public Statement createStatement() throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.createStatement();
+	}
+
+	public Statement createStatement(final int resultSetType, final int resultSetConcurrency) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.createStatement(resultSetType, resultSetConcurrency);
+	}
+
+	public Statement createStatement(final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.createStatement(resultSetType, resultSetConcurrency, resultSetHoldability);
+	}
+
+	public boolean getAutoCommit() throws SQLException {
+		return this.backingConnection.getAutoCommit();
+	}
+
+	public String getCatalog() throws SQLException {
+		return this.backingConnection.getCatalog();
+	}
+
+	public int getHoldability() throws SQLException {
+		return this.backingConnection.getHoldability();
+	}
+
+	public DatabaseMetaData getMetaData() throws SQLException {
+		return this.backingConnection.getMetaData();
+	}
+
+	public int getTransactionIsolation() throws SQLException {
+		return this.backingConnection.getTransactionIsolation();
+	}
+
+	public Map<String, Class<?>> getTypeMap() throws SQLException {
+		return this.backingConnection.getTypeMap();
+	}
+
+	public SQLWarning getWarnings() throws SQLException {
+		return this.backingConnection.getWarnings();
+	}
+
+
+
+	public boolean isReadOnly() throws SQLException {
+		return this.backingConnection.isReadOnly();
+	}
+
+	public String nativeSQL(final String sql) throws SQLException {
+		return this.backingConnection.nativeSQL(sql);
+	}
+
+	public CallableStatement prepareCall(final String sql) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareCall(sql);
+	}
+
+	public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareCall(sql, resultSetType, resultSetConcurrency);
+	}
+
+	public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareCall(sql, resultSetType, resultSetConcurrency, resultSetHoldability);
+	}
+
+	public PreparedStatement prepareStatement(final String sql) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareStatement(sql);
+	}
+
+	public PreparedStatement prepareStatement(final String sql, final int autoGeneratedKeys) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareStatement(sql, autoGeneratedKeys);
+	}
+
+	public PreparedStatement prepareStatement(final String sql, final int[] columnIndexes) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareStatement(sql, columnIndexes);
+	}
+
+	public PreparedStatement prepareStatement(final String sql, final String[] columnNames) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareStatement(sql, columnNames);
+	}
+
+	public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareStatement(sql, resultSetType, resultSetConcurrency);
+	}
+
+	public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		return this.backingConnection.prepareStatement(sql, resultSetType, resultSetConcurrency, resultSetHoldability);
+	}
+
+	public void releaseSavepoint(final Savepoint savepoint) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		this.backingConnection.releaseSavepoint(savepoint);
+	}
+
+	public void rollback() throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		this.backingConnection.rollback();
+	}
+
+	public void rollback(final Savepoint savepoint) throws SQLException {
+		this.lastUsedTime=new Date().getTime();
+		this.backingConnection.rollback(savepoint);
+	}
+
+	public void setAutoCommit(final boolean autoCommit) throws SQLException {
+		this.backingConnection.setAutoCommit(autoCommit);
+	}
+
+	public void setCatalog(final String catalog) throws SQLException {
+		this.backingConnection.setCatalog(catalog);
+	}
+
+	public void setHoldability(final int holdability) throws SQLException {
+		this.backingConnection.setHoldability(holdability);
+	}
+
+	public void setReadOnly(final boolean readOnly) throws SQLException {
+		this.backingConnection.setReadOnly(readOnly);
+	}
+
+	public Savepoint setSavepoint() throws SQLException {
+		return this.backingConnection.setSavepoint();
+	}
+
+	public Savepoint setSavepoint(final String name) throws SQLException {
+		return this.backingConnection.setSavepoint(name);
+	}
+
+	public void setTransactionIsolation(final int level) throws SQLException {
+		this.backingConnection.setTransactionIsolation(level);
+	}
+
+	public void setTypeMap(final Map<String, Class<?>> map) throws SQLException {
+		this.backingConnection.setTypeMap(map);
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(final int id) {
+		this.id = id;
+	}
+	
+	public boolean isAvailable() {
+		return available;
+	}
+
+	public void setAvailable(final boolean available) {
+		this.available = available;
+	}
+
+	public long getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(final long createTime) {
+		this.createTime = createTime;
+	}
+
+	public long getLastUsedTime() {
+		return lastUsedTime;
+	}
+
+	public void setLastUsedTime(final long lastUsedTime) {
+		this.lastUsedTime = lastUsedTime;
+	}
+
+
+	
+
+
+	
+
+
+	public boolean isPooled() {
+		return pooled;
+	}
+
+	public void setPooled(final boolean pooled) {
+		this.pooled = pooled;
+	}
+	/**
+	@Override
+	public String toString() {
+
+		try {
+			return ""+id+";"+(available?"available":"not available)")+";"+hashCode();
+			//return new StringBuilder("id="+getId()+", createTime="+getCreateTime()+", isClosed="+isClosed()).toString();
+		}
+		catch (final Exception e) {
+			return super.toString();
+		}
+
+	}
+	*/
+
+	
+	/** This may or may not help prevent the app from leaving conns open when the 
+	 * context is unloaded, but it can't hurt.
+	 * @see java.lang.Object#finalize()
+	 */
+	@Override
+	protected void finalize() throws Throwable {
+		/*
+		super.finalize();
+		if (!this.isClosed()) {
+			try {
+				this.close();
+			}
+			catch (final Throwable t) {}
+		}
+		*/
+	}
+
+	public Array createArrayOf(String typeName, Object[] elements)
+			throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Blob createBlob() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Clob createClob() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public NClob createNClob() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public SQLXML createSQLXML() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Struct createStruct(String typeName, Object[] attributes)
+			throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Properties getClientInfo() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getClientInfo(String name) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean isValid(int timeout) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public void setClientInfo(Properties properties)
+			throws SQLClientInfoException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setClientInfo(String name, String value)
+			throws SQLClientInfoException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public boolean isWrapperFor(Class<?> iface) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public <T> T unwrap(Class<T> iface) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+	/*
+	@Override
+	public boolean equals(final Object obj) {
+		// hashCode is suitable in this case for comparison
+		return (this.hashCode()==obj.hashCode());
+	}
+	*/
+
+	/*
+	@Override
+	public int hashCode() {
+		// in theory, the cast to int could cause this long value
+		// to "wrap", but in practice this will never happen (and if 
+		// it does, that's alright because we're still adhering to
+		// the Comparable contract):
+		return this.getId()+(this.isAvailable()?0:100000000);
+	}
+	*/
+
+
+
+	
+ 
+	
+	
+
+}

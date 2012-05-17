@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.Article" table="article">
+        <cache usage="nonstrict-read-write" />
+        
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="title" column="title" />
+			<property name="author" column="author" />
+			<property name="text" column="text" type="text" />
+			<property name="keywords" column="keywords" />
+			<property name="abstractText" column="abstract_text" />
+			<property name="originalPublicationDate" column="original_publication_date" />
+			<property name="sitePublicationDate" column="site_publication_date" />
+			<property name="copyrightNotice" column="copyright_notice" />
+			<property name="externalUrl" column="external_url" />
+    </class>
+</hibernate-mapping>

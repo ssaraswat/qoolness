@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.staticdata.StaticDataObject" table="static_data_object">
+        <cache usage="read-only" />
+        
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="int1" column="int_1" />
+			<property name="int2" column="int_2" />
+			<property name="int3" column="int_3" />
+			<property name="int4" column="int_4" />
+			<property name="float1" column="double_1" type="float" />
+			<property name="float2" column="double_2" type="float" />
+			<property name="type" column="type" />
+			<property name="string255Char" column="string_255_char" />
+			<property name="string16Char" column="string_16_char" />
+			<property name="label" column="label" />
+
+    </class>
+</hibernate-mapping>

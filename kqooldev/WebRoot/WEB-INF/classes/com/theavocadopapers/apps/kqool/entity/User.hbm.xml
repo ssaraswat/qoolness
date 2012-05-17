@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.User" table="user">
+        <cache usage="read-write" />
+        
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="lastName" column="last_name" />
+			<property name="firstName" column="first_name" />
+			<property name="username" column="username" />
+			<property name="emailAddress" column="email_address" />
+			<property name="userType" column="user_type" />
+			<property name="backendUserType" column="backend_user_type" />
+			<property name="backendUserParentUserId" column="backend_user_parent_user_id" />
+			<property name="emergencyContact" column="emergency_contact" />
+			<property name="password" column="password" />
+			<property name="joinDate" column="join_date" />
+			<property name="lastAccessDate" column="last_access_date" />
+			<property name="commentsUserVisible" column="comments_user_visible" type="text" />
+			<property name="commentsUserHidden" column="comments_user_hidden" type="text" />
+			<property name="secretQuestion" column="secret_question" />
+			<property name="secretAnswer" column="secret_answer" />
+			<property name="status" column="status" />
+			<property name="gender" column="gender" />
+			<property name="birthDate" column="birth_date" />
+			<property name="siteId" column="site_id" />
+			<property name="nutritionist" column="contains_nutritionist" />
+    </class>
+</hibernate-mapping>

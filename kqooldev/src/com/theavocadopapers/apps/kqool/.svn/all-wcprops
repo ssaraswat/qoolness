@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/SiyaCorp/kqool/svn/!svn/ver/7/kqooldev/src/com/theavocadopapers/apps/kqool
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/Constants.java
+END
+AppException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/AppException.java
+END
+AppConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/AppConstants.java
+END
+GenericProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/GenericProperties.java
+END
+ServletContextWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/ServletContextWrapper.java
+END
+TempClientToAndrewMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/TempClientToAndrewMapper.java
+END
+PfdProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/PfdProperties.java
+END
+TempUserWorkoutDemapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/TempUserWorkoutDemapper.java
+END
+ServletContextWrapper.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/ServletContextWrapper.class
+END
+SiteProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/SiteProperties.java
+END
+AppConstants.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/AppConstants.class
+END
+AppException.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/AppException.class
+END
+Constants.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/Constants.class
+END
+TempWorkoutToAndrewMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/TempWorkoutToAndrewMapper.java
+END
+TempExerciseVideoDemapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SiyaCorp/kqool/svn/!svn/ver/2/kqooldev/src/com/theavocadopapers/apps/kqool/TempExerciseVideoDemapper.java
+END

@@ -1,0 +1,51 @@
+# Former ServletContext init params:
+default.mail.from=noreply@kqool.com
+default.mail.from.label=Kqool.com
+default.mail.subject.prefix=[kqool]
+default.mail.subject.admin.prefix=[kqool-admin]
+smtp.host=seal.arvixe.com
+smtp.port=25
+smtp.username=dispatcher@kqool.com
+smtp.password=nec.svga
+
+paypal.business=kqool2@aol.com
+standard.monthly.cost=39.95
+
+#paypal.business=workroll@workroll.com
+#standard.monthly.cost=0.01
+
+
+# Leave this null; we probably won't ever need it to be anything but null, and definitely not with GeekISP:
+#smtp.localhost=
+
+paypal.subscriptions.url.prefix=https://www.paypal.com/subscriptions/?
+paypal.standard.monthly.subscription.item.number=KQSTDM1
+paypal.standard.monthly.subscription.item.name=Kqool.com standard membership
+
+comments.email.address=kqool@kqool.com
+proprietor.email.address=andrew@kqool.com
+developer.email.address=scs@theavocadopapers.com
+developer.name=Steve Schneider
+copyright.notice.html.hode=Copyright &copy; Kqool Inc. 2002-2010.<BR>All rights reserved.
+copyright.notice.text.code=Copyright (c) Kqool Inc. 2002-2010. All rights reserved.
+copyright.notice.web.display=Copyright &copy; Kqool Inc. 2002-2010.<br/>All rights reserved.
+copyright.notice.email.display=Copyright (c) Kqool Inc. 2002-2010. All rights reserved.
+
+# no trailing slash:
+site.url.for.mail.display=http://www.kqool.com
+base.site.url=http://www.kqool.com
+	
+default.mail.link.color=ff6600
+
+# tilde (~) delimited (each entry needs a trailing space):
+error.prefixes=Somewhere, a child is crying because ~You have angered the gods of Kqool. ~Drop and give us twenty. 
+	
+# needs trailing slash:
+mail.images.dir=http://www.kqool.com/mailimages/
+
+default.page.title= Kqool
+default.page.title.dialog=Kqool
+
+default.email.sig.text=\n\n_______________________________\nRegards,\nKqool.com\n\nhttp://www.kqool.com\nCopyright (c) Kqool Inc. 2002-2010. All rights reserved.\n
+
+default.email.sig.html="<br/><br/>Regards,<br/><a style="color:#ff6600" href="http://www.kqool.com" target=_blank>Kqool.com</a><br/><br/>

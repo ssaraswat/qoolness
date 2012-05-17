@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.CalorieHour" table="calorie_hour">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			<property name="dateYear" column="date_year" />
+			<property name="dateMonth" column="date_month" />
+			<property name="dateDate" column="date_date" />
+			<property name="ingestedLabel" column="intake_comments" />
+			<property name="totalIngestedCalories" column="intake_calories" />
+			<property name="expendedLabel" column="expended_comments" />
+			<property name="totalExpendedCalories" column="expended_calories" />
+			<property name="weekId" column="week_id" />
+			<property name="hour" column="hr" />
+			<property name="totalIngestedFat" column="fat" />
+			<property name="totalIngestedCarb" column="carb" />
+			<property name="totalIngestedProtein" column="protein" />
+			<property name="totalIngestedFiber" column="fiber" />
+			<property name="totalIngestedSugar" column="sugar" />
+			<property name="totalIngestedSodium" column="sodium" />
+			<property name="totalIngestedCalcium" column="calcium" />
+			<property name="totalIngestedSatfat" column="satfat" />
+			<property name="totalIngestedCholesterol" column="cholesterol" />
+			<property name="numServings" column="num_servings" />
+			<property name="servingName" column="serving_name" />
+ 			
+		
+
+    </class>
+</hibernate-mapping>

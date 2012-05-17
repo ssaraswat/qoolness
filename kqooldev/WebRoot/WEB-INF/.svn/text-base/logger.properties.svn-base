@@ -1,0 +1,2 @@
+log.all.to.stdout=false;
+logger.file=/Users/ssaraswa/Workspaces/MyEclipse/kqooldev/logs/test.log

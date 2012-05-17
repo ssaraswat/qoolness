@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="com.theavocadopapers.apps.kqool.entity.Site" table="site">
+    	<cache usage="nonstrict-read-write" />
+    
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+			<!-- Used by the framework... -->
+			<property name="lastModifiedDate" column="last_modified_date" />
+			<property name="createDate" column="create_date" />
+			<!-- ...end used by the framework. -->
+			
+			
+			<property name="label" column="label" />
+			<property name="domainPrefix" column="domain_prefix" />
+			<property name="comments" column="comments" />
+			<property name="uiType" column="uiType" />
+			<property name="canShareClients" column="can_share_clients" type="boolean" />
+			<property name="primaryContactUserId" column="primary_contact_user_id" />
+			
+			
+
+			
+
+
+    </class>
+</hibernate-mapping>
