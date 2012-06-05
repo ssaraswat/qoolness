@@ -15,7 +15,7 @@ All rights reserved.
 <%@ include file="/global/topInclude.jsp" %>
 
 <%!
-DateFormat deadlineFormat=new SimpleDateFormat("MM/dd/yyyy HHmm");
+DateFormat deadlineFormat=new SimpleDateFormat("MMddyy HHmm");
 %>
 
 <%
