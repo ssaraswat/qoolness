@@ -268,6 +268,63 @@ public class MailUtils {
 		}
 	}
 
+	public static void sendWorkoutAssignmentMail(final User assignedToUser, final Workout workout, final Controller controller)  {
+		final int siteId=assignedToUser.getSiteId();
+		
+		final SiteProperties siteProps=new SiteProperties(siteId);
+		//final HttpServletRequest request=(HttpServletRequest)pageContext.getRequest();
+		final StringBuffer text=new StringBuffer();
+		text.append("For details, please click the \"view routines\" button:<br/><br/>");
+		text.append(anchor(
+				siteProps.getBaseSiteUrl()+"/workouts/workoutList.jsp?selfAssign=false&prescriptive=true&id="+workout.getId()+"&siteId="+assignedToUser.getSiteId()+"&"+Controller.FORCE_LOGOUT_PARAM+"=true",
+				mailButton("buttonViewRoutine.gif", controller), 
+				controller)
+			);  
+
+		final KqoolMessageBody message=new KqoolMessageBody(
+			"We are pleased to announce "+assignedToUser.getFirstName()+" "+assignedToUser.getLastName()+" as the proud recipient of a new fitness routine.",
+			text.toString(),
+			siteId,
+			controller
+		);
+		final InternetAddress[] toAddr=new InternetAddress[1];
+		InternetAddress fromAddress=null;
+		final String subjectText=siteProps.getDefaultMailSubjectPrefix()+" You've got Qool.";
+		try {
+			try { 
+				fromAddress=new InternetAddress(siteProps.getDefaultMailFrom(), siteProps.getDefaultMailFromLabel());
+			}
+			catch (final UnsupportedEncodingException e1) {}
+			toAddr[0]=new InternetAddress(assignedToUser.getEmailAddress());
+
+		}
+		catch (final AddressException e) {
+		}
+		try {
+			//Mailer.sendWithoutWaiting(
+			Mailer.send(
+				true,
+				toAddr, 
+				null, 
+				null, 
+				fromAddress, 
+				subjectText, 
+				message, 
+				Mailer.MIME_TYPE_HTML, 
+				null, 
+				null, 
+				siteProps
+			);
+			
+		}
+		catch (final AddressException e) {
+			throw new FatalApplicationException(e);
+
+		}
+		catch (final Exception e) {
+			throw new FatalApplicationException(e);
+		}
+	}
 	
 	public static void sendExceptionReport(final Throwable exception) throws NumberFormatException {
 		sendExceptionReport(null, null, exception);
@@ -1286,8 +1343,16 @@ public class MailUtils {
 		
 	}
 	
+	
 	private static String anchor(final String url, final String label, final Controller controller) throws NumberFormatException {
-		final int siteId=Integer.parseInt(controller.getSiteId());
+		final int siteId;
+		if (controller!=null) {
+			siteId=Integer.parseInt(controller.getSiteId());
+		}
+		else {
+			siteId=1;
+		}
+		
 		final SiteProperties siteProps=new SiteProperties(siteId);
 		return "<a style=\"color:#"+siteProps.getDefaultMailLinkColor()+"\" href=\""+url+"\" target=_blank>"+label+"</a>";
 	}
@@ -1311,9 +1376,26 @@ public class MailUtils {
 		return "<img src=\""+siteProps.getMailImagesDir()+src+"\" height=\""+height+"\" width=\""+width+"\" border=\"0\" />";
 	} 
 	
+	public static String mailImage(final String src, final int height, final int width, final Controller controller) throws NumberFormatException {
+		int siteId;
+		if (controller!=null) {
+			siteId=Integer.parseInt(controller.getSiteId());
+		}
+		else {
+			siteId=1;
+		}
+		final SiteProperties siteProps=new SiteProperties(siteId);
+
+
+		return "<img src=\""+siteProps.getMailImagesDir()+src+"\" height=\""+height+"\" width=\""+width+"\" border=\"0\" />";
+	} 
+	
 	private static String mailButton(final String src, final HttpServletRequest request, final Controller controller) throws NumberFormatException {
 		return mailImage(src, 45, 167, request, controller);
 	}
 
+	private static String mailButton(final String src, final Controller controller) throws NumberFormatException {
+		return mailImage(src, 45, 167, controller);
+	}
 
 }

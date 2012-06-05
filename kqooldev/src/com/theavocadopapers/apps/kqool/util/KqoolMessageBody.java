@@ -38,6 +38,24 @@ public class KqoolMessageBody extends MailMessageBody {
 			text
 		);
 	}
+	public KqoolMessageBody(final String tagline, final String text, final int siteId, final Controller controller) throws NumberFormatException {
+		super("<table cellspacing=0 cellpadding=0 border=0 width=600>"+
+			"<tr><td colspan=2><a href="+GeneralUtils.getBaseSiteUrl(siteId)+" target=_blank>"+
+			MailUtils.mailImage("header.gif", 164, 340, controller)+"</a><br/></td></tr>"+
+			"<tr><td nowrap width=10>&nbsp;<br/></td><td>"+
+			"<font size=2 face=arial,helvetica style=\"font-family:arial,helvetica; size:11px;\"><br/>",				
+			new SiteProperties(siteId).getDefaultEmailSigHtml()+
+			"</font>"+
+			MailUtils.mailImage("spacer_gray.gif", 1, 340, controller)+
+			"</td></tr>"+
+			"<tr><td nowrap width=10>&nbsp;<br/></td>"+
+			"<td nowrap width=590>&nbsp;<br/></td></tr>"+
+			"</table>", 
+			tagline, 
+			text
+		);
+	}
+	
 	public KqoolMessageBody(final String head, final String foot, final String tagline, final String text) {
 		super(head, foot, tagline, text);
 	}

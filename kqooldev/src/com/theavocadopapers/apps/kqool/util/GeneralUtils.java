@@ -528,7 +528,13 @@ implements com.theavocadopapers.apps.kqool.Constants
     public static String getBaseSiteUrl(final HttpServletRequest request, final int siteId) {
         return new SiteProperties(siteId).getBaseSiteUrl();
     }
-    
+    /**
+     * @param siteId
+     * @return
+     */
+    public static String getBaseSiteUrl(final int siteId) {
+        return new SiteProperties(siteId).getBaseSiteUrl();
+    }
     public static Date getFirstDayOfWeekDate(final Date date) {
     	if (date==null) {
     		return null;

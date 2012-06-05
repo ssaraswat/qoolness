@@ -4,6 +4,8 @@
  */
 package com.theavocadopapers.apps.kqool.entity;
 
+import java.text.Format;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
@@ -182,6 +184,24 @@ public class Workout extends AbstractDbObject {
 		}
 		return false;
 	}
+	
+	public static List getAllRoutinesForDate() {
+		String sCurrDate;
+    	Format formatter;
+		Date currDate=new Date();
+    	formatter = new SimpleDateFormat("yyyy-MM-dd");
+    	sCurrDate = formatter.format(currDate);		
+		List routines=getByHQLQuery("from "+getClassNameOnly(currentClass)+" as i where Date(i.dueDate) = '"+sCurrDate+"'", false);
+		routines=(routines==null?new ArrayList():routines);
+		final Iterator it=routines.iterator();
+		Workout routine;
+		while (it.hasNext()) {
+			routine=(Workout)it.next();
+		
+		}
+		return routines;
+	}
+	
 	
 
 	
