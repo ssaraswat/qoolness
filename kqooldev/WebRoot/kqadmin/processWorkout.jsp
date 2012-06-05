@@ -146,7 +146,7 @@ try
 		workout.setUserId(assignToUserId);
 		// Yes, it *IS* ugly that we're storing this twice:
 		id=workout.store();
-		MailUtils.sendWorkoutAssignmentMail(assignToUser, workout, pageContext, controller);
+		//MailUtils.sendWorkoutAssignmentMail(assignToUser, workout, pageContext, controller);
 	}
 	successParam="true";
 }

@@ -205,7 +205,7 @@ function isValidForm(formObj)
 			}
 		}
 	}
-	var mailCheckboxChecked=els["sendMail"].checked
+	/*var mailCheckboxChecked=els["sendMail"].checked
 	var confirmMsg
 	if (username.length>0) {
 		confirmMsg="You are about to assign this routine to "+username+". "+(mailCheckboxChecked?"An email will be sent to this client notifying him or her of the new routine.":"However, you have opted not to send the client an email notifying him or her of the new routine.")+" Okay to proceed?"
@@ -216,6 +216,7 @@ function isValidForm(formObj)
 	if (!confirm(confirmMsg)) {
 		return false
 	}
+	*/
 	var okToSubmit=findSupersetRestIntervalConflicts(els, false)
 	if (okToSubmit) {
 		hidePageAndShowPleaseWait()
@@ -694,13 +695,13 @@ else if (mode.equals("edit")) {
 }
 %>
 
-<%
+<%--
 if (assignWorkoutToUser) {
-	%>
-	<input type="checkbox" name="sendMail" id="sendMail" value="true" checked="checked" /><label for="sendMail">Notify the client of the new routine via email</label><br/><br/>
-	<%
+	
+	  <input type="checkbox" name="sendMail" id="sendMail" value="true" checked="checked" /><label for="sendMail">Notify the client of the new routine via email</label><br/><br/> 
+ 	<%
 }
-%>
+%>  --%>
 
 
 <%=HtmlUtils.cpFormButton(false, "cancel", "location.replace('menu.jsp?"+controller.getSiteIdNVPair()+"')", request)%>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
