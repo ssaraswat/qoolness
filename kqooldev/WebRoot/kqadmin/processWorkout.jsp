@@ -15,15 +15,16 @@ All rights reserved.
 <%@ include file="/global/topInclude.jsp" %>
 
 <%!
-DateFormat deadlineFormat=new SimpleDateFormat("MMddyy HHmm");
+DateFormat deadlineFormat=new SimpleDateFormat("MM/dd/yyyy HHmm");
+DateFormat deadlineDateFormat=new SimpleDateFormat("MM/dd/yyyy");
 %>
 
 <%
 
-
+Date currDate = new Date();
 
 int assignToUserId=controller.getParamAsInt("assignToUserId",0);
-
+boolean curDayMail = false;
 boolean assignWorkoutToUser=(assignToUserId>0);
 
 User assignToUser=null;
@@ -32,8 +33,21 @@ if (assignWorkoutToUser) {
 }
 String deadlineDate=controller.getParam("deadlineDate");
 String deadlineTime=controller.getParam("deadlineTime");
-System.out.println("DeadlineDate : " + deadlineDate);
-System.out.println("DeadlineTime : " + deadlineTime);
+
+Date dDeadline = deadlineDateFormat.parse(deadlineDate);
+
+ Calendar calendar = Calendar.getInstance();
+
+	calendar.set(Calendar.HOUR_OF_DAY, 0);
+	calendar.set(Calendar.MINUTE, 0);
+	calendar.set(Calendar.SECOND, 0);
+	calendar.set(Calendar.MILLISECOND, 0);
+ 	Date dtCurrDate = calendar.getTime();
+
+	Date dtDeadline = deadlineDateFormat.parse(deadlineDate);
+	if(dtCurrDate.compareTo(dDeadline)==0){
+		  curDayMail = true;
+	}
 
 Date deadline;
 if (deadlineDate.equals("0") || deadlineTime.equals("0000")) {
@@ -50,6 +64,8 @@ else {
 String successParam;
 int id=controller.getParamAsInt("id",0);
 String mode=controller.getParam("mode","add");
+
+
 
 boolean workoutExists=(mode.equals("edit"));
 try
@@ -106,47 +122,45 @@ try
 	}
 	workout.setExerciseDetails(exerciseDetails);
 	if (workoutExists) {
-		System.out.println("1111");
 		System.out.println(workout.getName());
 		id=workout.store();
 	}
 	else {
-		System.out.println("2222");
 		System.out.println(workout.getName());
 		id=workout.store();
 	}
-	System.out.println("3333");
+
 	double clientWeight=0.0;
 	try {
 		//clientWeight=Double.parseDouble(PfdItem.getCurrentByUserIdAndCode(assignToUser.getId(), "weight"));
 	}
 	catch (Exception e) {
-		System.out.println("6666");
+
 		// Lots of users won't have this data stored, at least initially
 	}
-	System.out.println("4444");
+
 	if (clientWeight==0.0) {
-			System.out.println("5555" + assignToUser);
+
 		if (assignToUser != null && assignToUser.getGender()==User.MALE) {
-			System.out.println("6666");
+
 			clientWeight=Exercise.DEFAULT_MALE_WEIGHT;
-			System.out.println("7777");
+
 		}
 		else {
 			clientWeight=Exercise.DEFAULT_FEMALE_WEIGHT;
-			System.out.println("6666");
+
 		}
 
 	}
 
-	System.out.println("7777");
 	ExerciseDetail.storeExerciseDetailsFrom(workout, assignToUser, clientWeight, Exercise.getAllAsMap());
 	
 	if (assignWorkoutToUser) {
 		workout.setUserId(assignToUserId);
 		// Yes, it *IS* ugly that we're storing this twice:
 		id=workout.store();
-		//MailUtils.sendWorkoutAssignmentMail(assignToUser, workout, pageContext, controller);
+		if(curDayMail)
+			MailUtils.sendWorkoutAssignmentMail(assignToUser, workout, pageContext, controller);
 	}
 	successParam="true";
 }
